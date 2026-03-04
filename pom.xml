@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.klu</groupId>
-  <artifactId>skill2</artifactId>
+  <artifactId>skill1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>skill2</name>
+  <name>skill1</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -29,12 +29,6 @@
   </dependencyManagement>
 
   <dependencies>
-  
-<dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>6.2.11</version>
-    </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
