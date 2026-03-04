@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.klu</groupId>
-  <artifactId>skill1</artifactId>
+  <artifactId>skill-2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>skill1</name>
+  <name>skill-2</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -29,6 +29,26 @@
   </dependencyManagement>
 
   <dependencies>
+    <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.4.4.Final</version>
+    </dependency>
+
+
+    <!-- MySQL Connector -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
+    </dependency>
+
+    <!-- Jakarta Persistence API -->
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version>
+    </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
